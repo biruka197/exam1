@@ -91,9 +91,10 @@ $show_answer = $_SESSION['show_answer'][$current_question_index] ?? false;
 </div>
 
 <!-- Report Question Modal (FIXED) -->
+
 <div id="report-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4 hidden transition-opacity duration-300 opacity-0">
     <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-md">
-        <h3 class="text-lg font-medium text-slate-900 mb-4">Report a Problem</h3>
+        <h3 class="text-lg ff font-medium text-slate-900 mb-4">Report a Problem</h3>
         <form id="report-form" onsubmit="submitReport(event)">
             <input type="hidden" id="report-question-id" name="question_id">
             <div class="space-y-3">
